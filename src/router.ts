@@ -6,6 +6,6 @@ const userRouter = Router()
 
 userRouter.post('/create', createUserController.handle)
 
-router.use()
+router.use('/users', userRouter)
 
 export { router }
